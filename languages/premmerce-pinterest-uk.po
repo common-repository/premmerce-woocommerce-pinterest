@@ -1,0 +1,572 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-11-20 14:18+0200\n"
+"PO-Revision-Date: 2018-11-20 14:37+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: _e;__;_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: src/Admin/Admin.php:88
+#, php-format
+msgid "Enable to write cookie file, please check permissions directory %s"
+msgstr ""
+"Позвольте записувати cookie файл. Будь ласка, провірте права на папку %s"
+
+#: src/Admin/Admin.php:133
+msgid "You must select your default board to pin"
+msgstr "Ви повинні вибрати стандартну дошку для публікацій"
+
+#: src/Admin/Admin.php:199
+#, php-format
+msgid "Please enter in decimal (%s) format without thousand separators."
+msgstr ""
+
+#: src/Admin/Admin.php:201
+#, php-format
+msgid ""
+"Please enter in monetary decimal (%s) format without thousand separators and "
+"currency symbols."
+msgstr ""
+
+#: src/Admin/Admin.php:202
+msgid "Please enter in country code with two capital letters."
+msgstr ""
+
+#: src/Admin/Admin.php:203
+msgid "Please enter in a value less than the regular price."
+msgstr ""
+
+#: src/Admin/Admin.php:204
+msgid ""
+"This product has produced sales and may be linked to existing orders. Are "
+"you sure you want to delete it?"
+msgstr ""
+
+#: src/Admin/Admin.php:205
+msgid ""
+"This action cannot be reversed. Are you sure you wish to erase personal data "
+"from the selected orders?"
+msgstr ""
+
+#: src/Admin/Admin.php:210
+msgid "Import"
+msgstr ""
+
+#: src/Admin/Admin.php:211
+msgid "Export"
+msgstr ""
+
+#: src/Admin/Admin.php:231
+msgid "Premmerce Pinterest"
+msgstr ""
+
+#: src/Admin/Admin.php:288
+msgid "Pinterest settings"
+msgstr "Налаштування Pinterest"
+
+#: src/Admin/Admin.php:295
+msgid "Board"
+msgstr "Дошка"
+
+#: src/Admin/Admin.php:306
+msgid "Pin description"
+msgstr "Опис публікації"
+
+#: src/Admin/Admin.php:317
+msgid "Task frequently (min)"
+msgstr "Частота задач (хв)"
+
+#: src/Admin/Admin.php:328
+msgid "Rich product pins"
+msgstr ""
+
+#: src/Admin/Admin.php:452
+msgid "Account"
+msgstr "Аккаунт"
+
+#: src/Admin/Admin.php:455
+msgid "Pinned"
+msgstr "Опубліковані"
+
+#: src/Admin/Admin.php:456
+msgid "Queue"
+msgstr "Черга"
+
+#: src/Admin/Admin.php:457
+msgid "Settings"
+msgstr "Налаштування"
+
+#: src/Admin/Admin.php:460
+msgid "Analytics"
+msgstr "Аналітика"
+
+#: src/Admin/Pins/PinnedTable.php:115 src/Admin/Queue/QueueTable.php:168
+msgid "Name"
+msgstr "Назва"
+
+#: src/Admin/Pins/PinnedTable.php:116
+msgid "Created"
+msgstr "Створено"
+
+#: src/Admin/Pins/PinnedTable.php:142 src/Admin/Pins/PinnedTable.php:172
+msgid "Delete from Pinterest"
+msgstr "Видалити з Pinterest"
+
+#: src/Admin/Pins/PinnedTable.php:151 src/Admin/Pins/PinnedTable.php:171
+msgctxt "bulk action"
+msgid "Update"
+msgstr "Оновити"
+
+#: src/Admin/Pins/PinnedTable.php:211
+msgid "No pinned pins"
+msgstr "Немає публікацій"
+
+#: src/Admin/Pins/PinsService.php:138 src/Admin/Pins/PinsService.php:182
+#: src/Admin/Queue/QueueService.php:175
+msgid "Task has been added to end of queue"
+msgstr "Задача додана в кінець черги"
+
+#: src/Admin/Pins/PinsService.php:151 src/Admin/Pins/PinsService.php:198
+#: src/Admin/Queue/QueueService.php:190
+msgid "Tasks has been added to end of queue"
+msgstr "Задачі були додані в кінець черги"
+
+#: src/Admin/Pins/PinsService.php:215
+msgid "Pin feature image"
+msgstr "Опублікувати на pinterest"
+
+#: src/Admin/Pins/PinsService.php:244
+msgid "products add to queue "
+msgstr "Товарів додано до черги"
+
+#: src/Admin/Pins/PinsService.php:395
+msgid "Invalid username or password"
+msgstr "Неправильний логін чи пароль"
+
+#: src/Admin/Pins/PinsService.php:397 views/admin/logout_form.php:5
+msgid "Connected to Pinterest"
+msgstr "Звʼязано з Pinterest"
+
+#: src/Admin/Pins/PinsService.php:419
+msgid "You have been logged out"
+msgstr "Ви вийшли"
+
+#: src/Admin/Pins/PinsService.php:435
+msgid "You don't have any Pinterest boards, please create"
+msgstr ""
+" У Вас немає дощок для публікацій на Вашому аккаунті Pinterest. Будь ласка, "
+"створіть"
+
+#: src/Admin/Pins/PinsService.php:443
+#, php-format
+msgid "We choose %s as default board. You can change it at settings tab"
+msgstr ""
+"Ми вибрали %s як стандартну дошку. Ви можете змінити її на вкладці "
+"налаштувань"
+
+#: src/Admin/Queue/QueueService.php:114
+msgid "Task has been deleted"
+msgstr "Задача була видалена"
+
+#: src/Admin/Queue/QueueService.php:144
+msgid "Tasks has been deleted"
+msgstr "Задачі були видалені"
+
+#: src/Admin/Queue/QueueTable.php:81
+msgid "Remove"
+msgstr "Видалення"
+
+#: src/Admin/Queue/QueueTable.php:85
+#: views/admin/fields/default_board_field.php:20
+msgid "Create"
+msgstr "Створити"
+
+#: src/Admin/Queue/QueueTable.php:89
+msgid "Update"
+msgstr "Оновлення"
+
+#: src/Admin/Queue/QueueTable.php:132 src/Admin/Queue/QueueTable.php:281
+msgid "Processing"
+msgstr "В процесі"
+
+#: src/Admin/Queue/QueueTable.php:137
+msgid "fail"
+msgstr "Помилка"
+
+#: src/Admin/Queue/QueueTable.php:169
+msgid "Action"
+msgstr "Дія"
+
+#: src/Admin/Queue/QueueTable.php:171
+msgid "Status"
+msgstr "Статус"
+
+#: src/Admin/Queue/QueueTable.php:192 src/Admin/Queue/QueueTable.php:218
+msgid "Delete from queue"
+msgstr "Видалити з черги"
+
+#: src/Admin/Queue/QueueTable.php:202 src/Admin/Queue/QueueTable.php:222
+msgid "Retry"
+msgstr "Повторити"
+
+#: src/Admin/Queue/QueueTable.php:264
+msgid "No tasks in queue"
+msgstr "Немає задач в черзі"
+
+#: src/Admin/Queue/QueueTable.php:276
+#, php-format
+msgid "All (%d)"
+msgstr "Всі (%d)"
+
+#: src/Admin/Queue/QueueTable.php:286
+#, php-format
+msgid "Failed (%d)"
+msgstr "Невдало (%d)"
+
+#: src/Analytics/AnalyticsSettings.php:43
+msgid "App setting"
+msgstr "Налаштування додатку"
+
+#: src/Analytics/AnalyticsSettings.php:50
+msgid "Events"
+msgstr "Події"
+
+#: src/Analytics/AnalyticsSettings.php:57
+msgid "Enable\\Disable"
+msgstr "Ввімкнено\\Вимкнено"
+
+#: src/Analytics/AnalyticsSettings.php:63
+msgid "Enable or disable whole pinterest pixel functionality"
+msgstr "Ввімкнено для всього pinterest pixel функціоналу"
+
+#: src/Analytics/AnalyticsSettings.php:64
+msgid "Pinterest Pixel"
+msgstr ""
+
+#: src/Analytics/AnalyticsSettings.php:70
+msgid "App id"
+msgstr "Id додатку"
+
+#: src/Analytics/AnalyticsSettings.php:130
+msgid "Checkout"
+msgstr "Чукаут"
+
+#: src/Analytics/AnalyticsSettings.php:131
+msgid "Event is firing at thank you page, after checkout"
+msgstr ""
+"Подія трапляється коли користувач на сторінці \"дякую за замовлення\", після "
+"чекауту"
+
+#: src/Analytics/AnalyticsSettings.php:134
+msgid "Add to cart"
+msgstr "Додавання до корзини"
+
+#: src/Analytics/AnalyticsSettings.php:135
+msgid "Event is firing when user add product to cart"
+msgstr "Подія трапляється коли користувач додає товар в корзину"
+
+#: src/Analytics/AnalyticsSettings.php:138
+msgid "Visit Page"
+msgstr "Перегляд сторінки"
+
+#: src/Analytics/AnalyticsSettings.php:139
+msgid "Event is firing when user visit some page"
+msgstr "Подія трапляється коли користувач переглядає деяку сторінку"
+
+#: src/Analytics/AnalyticsSettings.php:142
+msgid "Visit product (Lead)"
+msgstr "Перегляд товару (Лід)"
+
+#: src/Analytics/AnalyticsSettings.php:143
+msgid "Event is firing when user visit product page"
+msgstr "Подія трапляється коли користувач переглядає сторінку товару"
+
+#: src/Analytics/AnalyticsSettings.php:146
+msgid "Search"
+msgstr "Пошук"
+
+#: src/Analytics/AnalyticsSettings.php:147
+msgid "Event is firing when user search something"
+msgstr "Подія трапляється коли користувач шось шукає"
+
+#: src/Analytics/AnalyticsSettings.php:150
+msgid "View Category"
+msgstr "Перегляд категорії"
+
+#: src/Analytics/AnalyticsSettings.php:151
+msgid "Event is firing when user visit product category page"
+msgstr "Подія трапляється коли користувач переглядає сторінку категорії"
+
+#: src/PinterestPlugin.php:166
+#, php-format
+msgid "The %s plugin requires %s plugin to be active!"
+msgstr "Для роботи плагіна %s потрібен плагін %s"
+
+#: src/TaskManager.php:101 src/TaskManager.php:131
+msgid "Pin has not pin_id"
+msgstr "Відсутній id публікації"
+
+#: views/admin/activation-message.php:4
+#, php-format
+msgid "is almost ready to get started. Please %s to your Pinterest account"
+msgstr "Майже готовий до роботи. Будь ласка %s в  аккаунт Pinterest"
+
+#: views/admin/activation-message.php:4
+msgid "sign in"
+msgstr "ввійдіть"
+
+#: views/admin/activation-message.php:6
+msgid "ready to get started"
+msgstr "готовий до роботи"
+
+#: views/admin/fields/default_board_field.php:3
+msgid "The board for which will be published pins"
+msgstr "Дошка на яку будуть робитися публікації"
+
+#: views/admin/fields/default_board_field.php:10
+msgid "None"
+msgstr ""
+
+#: views/admin/fields/default_board_field.php:19
+msgid "You don't have any boards on your Pinterest account"
+msgstr "У Вас немає дощок для публікацій на Вашому аккаунті Pinterest"
+
+#: views/admin/fields/default_description_field.php:4
+msgid "{price} - product price"
+msgstr "{price} - ціна товару"
+
+#: views/admin/fields/default_description_field.php:5
+msgid "{title} - product title"
+msgstr "{title} - заголовок товару"
+
+#: views/admin/fields/default_description_field.php:6
+msgid "{link} - link to product"
+msgstr "{link} - посилання на товар"
+
+#: views/admin/fields/default_description_field.php:7
+msgid "{description} - product description"
+msgstr "{description} - опис товару"
+
+#: views/admin/fields/default_description_field.php:8
+msgid "{excerpt} - product excerpt"
+msgstr "{excerpt} - короткий опис товару"
+
+#: views/admin/fields/default_description_field.php:9
+msgid "{site_title} - site title"
+msgstr "{site_title} - заголовок сайту"
+
+#: views/admin/fields/default_description_field.php:18
+msgid "Available shortcodes"
+msgstr "Доступні шорткоди"
+
+#: views/admin/fields/default_description_field.php:19
+msgid ""
+"Max text length 500 characters including real content embedded by shortcode"
+msgstr ""
+"Максимальна довжина тексту - 500 символів, включаючи контент вставлений "
+"шорткодами."
+
+#: views/admin/fields/default_frequently_field.php:3
+msgid "time delay between tasks"
+msgstr "Час затримки між задачами"
+
+#: views/admin/fields/default_frequently_field.php:11
+msgid ""
+"Be careful! We recommended choose time more than 1 minutes. If less - "
+"Pinterest may take you for bot and ban your account"
+msgstr ""
+"Будьте обережні! Ми рекомендуємо вибрати час більше 1 хвилини. Якщо менше - "
+"Pinterest може прийняти Вас за бота і заблокувати Ваш аккаунт"
+
+#: views/admin/fields/rich_pins_enable_field.php:4
+msgid ""
+"Product Pins add OG markup and make it easier for <strong>Pinners</strong> "
+"to see information about things you sell and include pricing, availability "
+"and buy location."
+msgstr ""
+"Product Pins додають OG розмітку і полегшують <strong> авторам </ strong> "
+"бачити інформацію про товар, який Ви продаєте, включно з  ціною, наявністю і "
+"місцезнаходженням"
+
+#: views/admin/fields/rich_pins_enable_field.php:10
+#, php-format
+msgid "After you turn on rich pins you must %s product page"
+msgstr "Після включення rich pins Ви повинні  %s сторінку товару"
+
+#: views/admin/fields/rich_pins_enable_field.php:12
+msgid "validate"
+msgstr "перевірити"
+
+#: views/admin/login_form.php:3
+msgid "Pinterest account login"
+msgstr "Сторінка входу Pinterest"
+
+#: views/admin/login_form.php:7 views/admin/login_form.php:17
+msgid "Login"
+msgstr "Логін"
+
+#: views/admin/login_form.php:12
+msgid "Password"
+msgstr "Пароль"
+
+#: views/admin/logout_form.php:3
+#, php-format
+msgid "Hello, %s"
+msgstr "Привіт, %s"
+
+#: views/admin/logout_form.php:9
+msgid "Logout"
+msgstr "Вийти"
+
+#: views/admin/metabox.php:6
+msgid "Pin post image"
+msgstr "Публікувати зображення поста"
+
+#: views/admin/metabox.php:17
+msgid "Pins will add to queue after save post"
+msgstr "Публікації будуть додані до черги після збереження поста"
+
+#: views/admin/metabox.php:20
+msgid "Select all"
+msgstr "Вибрати всі"
+
+#: views/admin/metabox.php:21
+msgid "Unselect all"
+msgstr "Відмінити"
+
+#: views/admin/tabs/analytics.php:11 views/admin/tabs/settings.php:11
+msgid "Save"
+msgstr "Зберегти"
+
+#: views/analytics/app_id_field.php:3 views/analytics/app_id_field.php:7
+msgid "Your app id created at Pinterest"
+msgstr "Ваш app id створений на Pinterest"
+
+#: views/analytics/app_id_field.php:8
+msgid "Instruction to create app at Pinterest"
+msgstr "Інструкція по створенню додатка на Pinterest"
+
+#: views/analytics/app_id_field.php:9
+#, php-format
+msgid "See %s"
+msgstr "Дивіться %s"
+
+#: views/analytics/app_id_field.php:9
+msgid "documentation"
+msgstr "Документацію"
+
+#: views/analytics/checkbox_field.php:6
+msgid "Enable for"
+msgstr "Ввімкнено для"
+
+#~ msgid "Enable or disable whole pinterest functionality"
+#~ msgstr "Ввімкнути чи вимкнути для цілого "
+
+#~ msgid "Max deployed text length 500 characters."
+#~ msgstr "Максимальна довжина тексту 500 символів"
+
+#~ msgid ""
+#~ "Max text length 500 characters including real content embedded by "
+#~ "shortcode."
+#~ msgstr ""
+#~ "Максимальна довжина тексту - 500 символів, включаючи контент шорткодів."
+
+#~ msgid "Tasks has been added in end of queue"
+#~ msgstr "Задачі були додані в кінець черги"
+
+#~ msgid "Wrong Pinterest login or password"
+#~ msgstr "Невірний Pinterest логін або пароль"
+
+#~ msgid "You are logged in!"
+#~ msgstr "Ви успішно ввійшли"
+
+#~ msgid "You are log in."
+#~ msgstr "Ви залогінені."
+
+#~ msgid "Pin this post`s image?"
+#~ msgstr "Опублікувати зображення цього поста?"
+
+#~ msgid "update"
+#~ msgstr "Оновити"
+
+#~ msgid "Do update"
+#~ msgstr "Оновити"
+
+#~ msgid "Max length 500 characters. If more text will be cut"
+#~ msgstr "Максимальна довжина 500 символів. Якщо більше - текст буде обрізано"
+
+#~ msgid "Delete"
+#~ msgstr "Видалити"
+
+#~ msgid ""
+#~ "Product Pins adds OG markup and make it easier for <strong>Pinners</"
+#~ "strong> to see information about things you sell and include pricing, "
+#~ "availability and buy location."
+#~ msgstr ""
+#~ "Product Pins додають OG розмітку і полегшують <strong> авторам </ strong> "
+#~ "бачити інформацію про товар, який ви продаєте, включно з  ціною, "
+#~ "наявністю і місцезнаходженням"
+
+#~ msgid "Time for which one task will be performed"
+#~ msgstr "Час, за який буде виконуватися одна задача"
+
+#~ msgid ""
+#~ "Product Pins make it easier for <strong>Pinners</strong> to see "
+#~ "information about things you sell and include pricing, availability and "
+#~ "buy location."
+#~ msgstr ""
+#~ "Product Pins полегшують <strong> авторам </ strong> бачити інформацію про "
+#~ "товар, який ви продаєте, включно з  ціною, наявністю і місцезнаходженням"
+
+#~ msgid "After you turn on rich pins you must %s it"
+#~ msgstr "Після включення  rich pins Ви повинні %s сторінку"
+
+#~ msgid "Validate"
+#~ msgstr "Перевірити"
+
+#~ msgid "Rich pins enable\\disable"
+#~ msgstr "Rich pins"
+
+#~ msgid "Default board to pin product"
+#~ msgstr "Стандартна дошка для публікацій"
+
+#~ msgid "Pinterest default pin description"
+#~ msgstr "Опис публікації"
+
+#~ msgid "Pinterest task frequently (in minutes)"
+#~ msgstr "Частота виконання завдань (в хвилинах)"
+
+#~ msgid ""
+#~ "Be careful! We recommended choose time more than 1 minutes. If less - "
+#~ "Pinterest may think that you are bot and ban your account"
+#~ msgstr ""
+#~ "Будьте обережні! Ми рекомендуємо ставити час більше ніж 1 хвилина. Якщо "
+#~ "менше - Pinterest може подумати, що ви бот і заблокувати ваш аккаунт"
+
+#~ msgid "Each 3 minutes"
+#~ msgstr "Кожні 3 хвилини"
+
+#~ msgid "Premmerce Pinterest Pin Image"
+#~ msgstr "Premmerce Pinterest Публікація Зображень"
+
+#~ msgid "login"
+#~ msgstr "Логін"
+
+#~ msgid "No task in queue"
+#~ msgstr "Немає задач в черзі"
+
+#~ msgid "Pinterest login"
+#~ msgstr "Логін Pinterest"
+
+#~ msgid "Pinterest password"
+#~ msgstr "Пароль Pinterest"

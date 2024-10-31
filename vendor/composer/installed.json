@@ -1,0 +1,91 @@
+[
+    {
+        "name": "premmerce/wordpress-sdk",
+        "version": "v2.1",
+        "version_normalized": "2.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Premmerce/wordpress-sdk.git",
+            "reference": "147f577c088e1dc2ff01e560b2a9b0a10fbef7d5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Premmerce/wordpress-sdk/zipball/147f577c088e1dc2ff01e560b2a9b0a10fbef7d5",
+            "reference": "147f577c088e1dc2ff01e560b2a9b0a10fbef7d5",
+            "shasum": ""
+        },
+        "time": "2019-01-22T14:56:23+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Premmerce\\SDK\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Premmerce",
+                "email": "info@premme.com"
+            }
+        ],
+        "description": "Wordpress SDK for premmerce plugins"
+    },
+    {
+        "name": "seregazhuk/pinterest-bot",
+        "version": "5.7.3",
+        "version_normalized": "5.7.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/seregazhuk/php-pinterest-bot.git",
+            "reference": "62d9d029990b62f3facb43b695073ccaa5f9bcb8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/seregazhuk/php-pinterest-bot/zipball/62d9d029990b62f3facb43b695073ccaa5f9bcb8",
+            "reference": "62d9d029990b62f3facb43b695073ccaa5f9bcb8",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-fileinfo": "*",
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "codeclimate/php-test-reporter": "^0.4.4",
+            "mockery/mockery": "1.0",
+            "phpunit/phpunit": "~5.7"
+        },
+        "time": "2018-06-23T13:21:43+00:00",
+        "type": "package",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/Helpers/functions.php"
+            ],
+            "psr-4": {
+                "seregazhuk\\PinterestBot\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Sergey Zhuk",
+                "email": "seregazhuk88@gmail.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "PHP library for Pintrest",
+        "keywords": [
+            "lib",
+            "php",
+            "pinterest"
+        ]
+    }
+]

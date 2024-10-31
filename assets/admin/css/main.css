@@ -1,0 +1,66 @@
+.image-pinterest-wrapper {
+    border:1px solid #ccc;
+    padding:5px;
+    display: inline-block;
+    margin: 5px;
+}
+.image-pinterest-wrapper:first-child {
+    margin-left: 0;
+}
+.premmerce-postbox {
+    padding:20px;
+}
+.inline-block {
+    display: inline-block;
+}
+.premmerce-pinterest-tip > span {
+    right: 5px;
+    top: 7px;
+    vertical-align: top;
+}
+.premmerce-pinterest-tip-chechbox > span {
+    vertical-align: initial;
+    top: 5px;
+    right: 5px;
+}
+@media (min-width: 747px){
+    th.manage-column.column-image.column-primary {
+        width:15%;
+    }
+}
+
+
+@media (min-width: 1024px){
+    th.manage-column.column-image.column-primary {
+        width:15%;
+    }
+}
+
+@media (min-width: 1420px){
+    th.manage-column.column-image.column-primary {
+        width:5%;
+    }
+}
+
+.image-pinterest-wrapper input[type=checkbox] {
+    vertical-align: top;
+    margin: 0 5px;
+}
+.pin-status{
+    padding: 5px 10px;
+    text-transform: capitalize;
+    border-radius: 3px;
+    display: inline-block;
+}
+.pin-to-create{
+    background: #c6e1c6;
+    color: #5b841b;
+}
+.pin-to-update{
+    background: #993300;
+    color: #ffffff;
+}
+.pin-to-remove{
+    background: #CC0000 ;
+    color: #ffffff ;
+}
